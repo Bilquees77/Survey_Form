@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    background-image: linear-gradient(rgba(73, 67, 75, 0.8), rgba(136, 136, 206, 0.7) ) , url(./bg.jpeg);
+    background-position: center;
+    background-repeat: no repeat;   
+ }
+
+
+#upperarea{
+    text-align: center;
+}
+
+#title{
+    margin-bottom:-12px;
+}
+.formmain{
+    display: flex;
+    justify-content: center;
+    /* background-color:rgba(137, 127, 140, 0.199);
+    opacity: 0.8;
+     */
+}
+
+#survey-form{
+    background: rgba(27, 27, 50, 0.8);
+    padding: 3%;
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+
+#label{
+   font-size: 1.125rem;
+   margin-bottom:1px;
+
+}
+
+
+.forminput{
+    border: 1px solid grey;
+    border-radius:0.2rem;
+    padding: 6px 0px;
+    
+    width: 100%;
+}
+
+.input-textarea {
+    width: 100%;
+    
+  }
+/* 
+#dropdown{
+    width: 100%;
+  } */
+
+#submit{
+    width: 100%;
+    padding: 6px 0px;
+    background-color: green;
+    color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 0.123rem;
+}
